@@ -1,0 +1,105 @@
+body{
+background-color: rgb(175, 233, 220);
+background-size: cover;
+width:  auto;
+height: auto;
+padding-bottom: 60px;
+}
+#Todo{
+
+    background-color: rgb(255, 255, 255);
+    width: 38%;
+    height: 700px;
+    margin: auto; 
+    margin-top: 110px; 
+    border-radius: 16px ;
+    padding-left: 30px;
+}
+#Titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 30px;
+    color: rgb(1, 65, 65);
+}
+form{
+padding-top:40px;
+}
+
+#email input[type=text]{
+    
+    padding-top: 20px;
+    border-radius: 3px;
+    width: 80%;
+    
+    
+}
+#email{
+    
+    margin-top: 30px;
+}
+#Message input[type=text]{
+   
+    margin-left: 30px;
+    padding-top: 80px;
+    border-radius: 3px;
+    width: 80%;
+}
+
+button{
+    background-color:rgb(12, 107, 79);
+    border-radius: 3px;
+    width: 87%;
+    border: 8px;
+    padding-top: 20px;
+    color:white;
+    height: 35%;
+    margin-top: 70px; 
+    padding-bottom: 15px;  
+    margin-left: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.grupo{
+    display: flex;
+}
+.form{
+
+    padding-top: 20px;
+    border-radius: 3px;
+    width: 42%;
+   
+       
+}
+.form input[type=text]{
+    width: 80%;
+    padding-left: 40px;
+    margin-right: 30px;
+    padding-top: 20px;
+    border-radius: 3px;
+}
+.Radios input[type=Radio]{
+
+    width: auto;
+    padding: 5px;
+    
+}
+.Radios{
+    margin: 5px;
+    width: 20%;
+    border: 0.06em solid #ccc;
+    padding-left: 30px;
+    
+    padding-top: 20px;
+    border-radius: 3px;
+    width: 70%;
+}
+#check input[type=checkbox]{
+    padding-left: 30px;
+    margin-left: 30px;
+}
+#check{
+    margin-top: 60px;
+}
+
